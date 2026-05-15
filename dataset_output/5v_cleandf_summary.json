@@ -1,0 +1,258 @@
+{
+  "rows": 560486,
+  "columns": 972,
+  "object_name": "df",
+  "department_counts": {
+    "A": 322283,
+    "B": 166497,
+    "C": 71706
+  },
+  "disposition_counts": {
+    "Discharge": 393848,
+    "Admit": 166638
+  },
+  "gender_counts": {
+    "Female": 309653,
+    "Male": 250833
+  },
+  "arrivalmode_counts": {
+    "Car": 223086,
+    "ambulance": 190370,
+    "Walk-in": 113731,
+    "NaN": 21884,
+    "Other": 6914,
+    "Public Transportation": 2824,
+    "Wheelchair": 1578,
+    "Police": 99
+  },
+  "esi_counts": {
+    "3": 236229,
+    "2": 163534,
+    "4": 125003,
+    "5": 27992,
+    "1": 5271,
+    "NaN": 2457
+  },
+  "top_missing_columns": [
+    {
+      "column": "phencyclidine(pcp)screen,urine,noconf._max",
+      "dtype": "float64",
+      "non_null": 0,
+      "missing": 560486,
+      "n_unique": 0
+    },
+    {
+      "column": "phencyclidine(pcp)screen,urine,noconf._last",
+      "dtype": "float64",
+      "non_null": 0,
+      "missing": 560486,
+      "n_unique": 0
+    },
+    {
+      "column": "phencyclidine(pcp)screen,urine,noconf._median",
+      "dtype": "float64",
+      "non_null": 0,
+      "missing": 560486,
+      "n_unique": 0
+    },
+    {
+      "column": "phencyclidine(pcp)screen,urine,noconf._min",
+      "dtype": "float64",
+      "non_null": 0,
+      "missing": 560486,
+      "n_unique": 0
+    },
+    {
+      "column": "benzodiazepinesscreen,urine,noconf._last",
+      "dtype": "float64",
+      "non_null": 1,
+      "missing": 560485,
+      "n_unique": 1
+    },
+    {
+      "column": "epithelialcells_last",
+      "dtype": "float64",
+      "non_null": 8,
+      "missing": 560478,
+      "n_unique": 4
+    },
+    {
+      "column": "benzodiazepinesscreen,urine,noconf._median",
+      "dtype": "float64",
+      "non_null": 14,
+      "missing": 560472,
+      "n_unique": 3
+    },
+    {
+      "column": "benzodiazepinesscreen,urine,noconf._min",
+      "dtype": "float64",
+      "non_null": 14,
+      "missing": 560472,
+      "n_unique": 3
+    },
+    {
+      "column": "benzodiazepinesscreen,urine,noconf._max",
+      "dtype": "float64",
+      "non_null": 14,
+      "missing": 560472,
+      "n_unique": 3
+    },
+    {
+      "column": "epithelialcells_min",
+      "dtype": "float64",
+      "non_null": 31,
+      "missing": 560455,
+      "n_unique": 6
+    },
+    {
+      "column": "epithelialcells_median",
+      "dtype": "float64",
+      "non_null": 31,
+      "missing": 560455,
+      "n_unique": 6
+    },
+    {
+      "column": "epithelialcells_max",
+      "dtype": "float64",
+      "non_null": 31,
+      "missing": 560455,
+      "n_unique": 6
+    },
+    {
+      "column": "acetonebld_last",
+      "dtype": "float64",
+      "non_null": 396,
+      "missing": 560090,
+      "n_unique": 75
+    },
+    {
+      "column": "poctroponini._last",
+      "dtype": "float64",
+      "non_null": 925,
+      "missing": 559561,
+      "n_unique": 41
+    },
+    {
+      "column": "acetonebld_median",
+      "dtype": "float64",
+      "non_null": 2282,
+      "missing": 558204,
+      "n_unique": 92
+    },
+    {
+      "column": "acetonebld_min",
+      "dtype": "float64",
+      "non_null": 2282,
+      "missing": 558204,
+      "n_unique": 77
+    },
+    {
+      "column": "acetonebld_max",
+      "dtype": "float64",
+      "non_null": 2282,
+      "missing": 558204,
+      "n_unique": 79
+    },
+    {
+      "column": "poctroponini._min",
+      "dtype": "float64",
+      "non_null": 4425,
+      "missing": 556061,
+      "n_unique": 46
+    },
+    {
+      "column": "poctroponini._max",
+      "dtype": "float64",
+      "non_null": 4425,
+      "missing": 556061,
+      "n_unique": 46
+    },
+    {
+      "column": "poctroponini._median",
+      "dtype": "float64",
+      "non_null": 4425,
+      "missing": 556061,
+      "n_unique": 53
+    }
+  ],
+  "column_groups": {
+    "demographic_like": 9,
+    "diagnosis_indicator_columns": 535,
+    "lab_summary_columns": 389,
+    "count_columns": 18,
+    "chief_complaint_columns": 200,
+    "medication_columns": 48
+  },
+  "selected_numeric_stats": {
+    "age": {
+      "non_null": 560475,
+      "mean": 49.87676524376645,
+      "median": 49.0,
+      "min": 18.0,
+      "max": 108.0
+    },
+    "n_edvisits": {
+      "non_null": 560486,
+      "mean": 3.6598951624126204,
+      "median": 1.0,
+      "min": 0.0,
+      "max": 376.0
+    },
+    "n_admissions": {
+      "non_null": 560486,
+      "mean": 0.9288207020335922,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 50.0
+    },
+    "n_surgeries": {
+      "non_null": 560486,
+      "mean": 2.206586783612793,
+      "median": 1.0,
+      "min": 0.0,
+      "max": 47.0
+    },
+    "triage_vital_hr": {
+      "non_null": 394434,
+      "mean": 85.5933327867394,
+      "median": 84.0,
+      "min": 30.0,
+      "max": 280.0
+    },
+    "triage_vital_sbp": {
+      "non_null": 392582,
+      "mean": 133.36505911048974,
+      "median": 131.0,
+      "min": 45.0,
+      "max": 312.0
+    },
+    "triage_vital_dbp": {
+      "non_null": 392423,
+      "mean": 80.48604364969142,
+      "median": 80.0,
+      "min": 25.0,
+      "max": 214.0
+    },
+    "triage_vital_rr": {
+      "non_null": 389999,
+      "mean": 17.617039961783377,
+      "median": 18.0,
+      "min": 8.0,
+      "max": 69.0
+    },
+    "triage_vital_o2": {
+      "non_null": 289169,
+      "mean": 97.26666749827791,
+      "median": 98.0,
+      "min": 60.0,
+      "max": 99.0
+    },
+    "triage_vital_temp": {
+      "non_null": 377501,
+      "mean": 98.08414692941211,
+      "median": 98.0,
+      "min": 90.0,
+      "max": 106.0
+    }
+  }
+}
